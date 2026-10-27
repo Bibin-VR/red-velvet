@@ -24,3 +24,7 @@ A Claude Code skill (`job-apply`) that finds and applies to jobs on LinkedIn, Na
 
 - The skill never enters passwords, MFA codes, CAPTCHAs, consent ticks or legal attestations. It stops and asks.
 - No skill can guarantee a job or a 100% application success rate. Each attempt ends either submitted and confirmed, or reported with the reason it stopped.
+
+## License
+
+MIT. See `LICENSE`.
