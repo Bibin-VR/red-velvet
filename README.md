@@ -11,7 +11,9 @@ A Claude Code skill (`job-apply`) that finds and applies to jobs on LinkedIn, Na
 | `ea.py` | LinkedIn Easy Apply helpers |
 | `li_search.py` | LinkedIn job search |
 | `li_job.py` | Reads a LinkedIn job page |
-| `profile.example.json` | Template for your private profile |
+| `platforms.md` | Job sites and lead sources per role family, lead research steps, cold-email rules |
+| `gsend.py` | Sends a cold email from Gmail web with the right résumé attached |
+| `profile.example.json` | Template for your private profile, including `role_family` |
 
 ## Setup
 
