@@ -1,0 +1,51 @@
+{
+ "cgpa": "0.0",
+ "current_lpa": "0",
+ "current_inr": "0",
+ "current_usd": "0",
+ "expected_lakh": "0",
+ "expected_inr": "0",
+ "expected_usd": "0",
+ "notice_days": 0,
+ "gender": "Male",
+ "city": "City, Country",
+ "grad_year": "YYYY",
+ "work_start_year": "YYYY",
+ "work_start_month": 1,
+ "linkedin_url": "https://www.linkedin.com/in/your-handle",
+ "github_url": "https://github.com/your-handle",
+ "portfolio_url": "https://your-site.example",
+ "dsa_rating": "0",
+ "llm_project_count": "0",
+ "llm_tools": "Your LLM APIs and frameworks",
+ "resumes": {
+  "sw": "~/path/to/software_resume.pdf",
+  "auto": "~/path/to/automation_resume.pdf"
+ },
+ "skill_years": [
+  [
+   "(?<!\\w)(java(?!script)|spring|angular|vue|aws|azure|gcp|google cloud|docker|kubernetes|k8s|terraform|django|golang|\\bgo\\b|ruby|php|scala|kotlin|swift|spark|hadoop|databricks|snowflake|power ?bi|tableau|salesforce|sap\\b|servicenow|selenium|appium|cypress|jmeter|rpa|uipath|blue ?prism|automation anywhere|devops|jenkins|mongodb atlas|pyspark|airflow|kafka|karate|rest.?assured|testng|junit|jest|mocha|t-?sql|sql server|ms ?sql|stored procedures?|ssis|ssrs|celery|fine.?tun\\w*|q?lora|(llm|model) evaluation|benchmarking|persistent memory|long.?term memory|personali[sz]ation)(?!\\w)",
+   0
+  ],
+  [
+   "(?<!\\w)(c#|\\.net|dotnet|asp\\.?net|wpf|blazor)(?!\\w)",
+   1
+  ],
+  [
+   "(?<!\\w)(react|typescript|javascript|node|next\\.?js|frontend|front-end|full ?stack|html|css|rest|api)(?!\\w)",
+   1
+  ],
+  [
+   "(?<!\\w)(llm|generative|gen ?ai|genai|large language|rag|langchain|langgraph|agent|agentic|mcp|prompt|openai|claude|gemini|nlp|ai/ml|aiml|ai-ml|artificial intelligence|machine learning|\\bml\\b|\\bai\\b)",
+   1
+  ],
+  [
+   "(?<!\\w)(flask|fastapi|pytest|vitest|playwright|github actions|ci/cd|testing)(?!\\w)",
+   1
+  ],
+  [
+   "(?<!\\w)(python|sql|mysql|sqlite|database|git|linux|plc|scada|hmi|automation|industrial|siemens|mitsubishi|tia portal|modbus|embedded|raspberry|c\\+\\+|robotics?)(?!\\w)",
+   2
+  ]
+ ]
+}
