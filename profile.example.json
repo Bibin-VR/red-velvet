@@ -47,5 +47,9 @@
    "(?<!\\w)(python|sql|mysql|sqlite|database|git|linux|plc|scada|hmi|automation|industrial|siemens|mitsubishi|tia portal|modbus|embedded|raspberry|c\\+\\+|robotics?)(?!\\w)",
    2
   ]
- ]
+ ],
+ "email": "you@example.com",
+ "role_family": "industrial_automation",
+ "home_region": "City, State",
+ "salary_floor_lpa": 0
 }

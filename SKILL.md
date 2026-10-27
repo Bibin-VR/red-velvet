@@ -12,6 +12,9 @@ All personal facts (name, education, salary, notice period, location, links, ré
 - Rule table with self-checks: `answers.py`. Add a rule plus a check whenever a new question appears.
 - Never claim a skill or year count that is not in the profile. An unknown tool counts as 0 years.
 
+## Role-based setup
+`profile.json` sets `role_family` (e.g. `industrial_automation`, `software_ai`), `home_region`, `salary_floor_lpa` and one résumé per role key. Everything below adapts to it: which platforms in `platforms.md` to use, which résumé to attach, which keywords to search and which employers to target. When the applicant's role changes, update `profile.json` and add a section to `platforms.md` instead of editing the code.
+
 ## Fit filter (this is what raises the hit rate)
 Apply only when: experience asked ≤ 3 years, pay at or above the floor in profile.json, or unlisted, role matches automation or Python/software. Skip senior/lead, 5+ years, sales, unrelated stacks. Prefer jobs < 1 week old with few applicants. Report skips with the reason.
 
@@ -22,8 +25,11 @@ Apply only when: experience asked ≤ 3 years, pay at or above the floor in prof
 - Upload files by intercepting the native file chooser.
 - Log every submission to `applied.json` and the job-search memory.
 
+## Lead sources and outreach
+See `platforms.md`: platforms per role family, lead-research procedure, and cold-email rules. Send cold emails with `gsend.py` and verify in Gmail Sent.
+
 ## Gmail
-Search for OTP / verification codes and application confirmations; read only what the task needs. Never send email or reply to recruiters without the user's OK.
+Search for OTP / verification codes and application confirmations; read only what the task needs. Send cold emails only when the user has asked for outreach; never reply to recruiters without the user's OK.
 
 ## Always stop for the user
 Passwords, MFA, CAPTCHAs, cookie/consent ticks, e-signatures, drug-test/background-check consent, PAN/DOB/ID numbers, anything legally attesting. New account passwords go to macOS Keychain only. Outgoing prose goes through humanizer; keep the profile's personal details out of anything public.
